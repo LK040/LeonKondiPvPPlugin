@@ -1,0 +1,13 @@
+worldName: world
+
+# Hinweis: Für Spawns nahe ±1900 muss die Start-Border >= 3800 sein.
+initialBorderDiameter: 4000
+finalBorderDiameter: 100
+shrinkDurationSeconds: 7200
+announceEveryBlocks: 100
+
+teamSpawns:
+  RED: "1900,1900"
+  GREEN: "-1900,-1900"
+  BLUE: "-1900,1900"
+  YELLOW: "1900,-1900"

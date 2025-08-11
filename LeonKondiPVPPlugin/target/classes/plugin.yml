@@ -1,0 +1,19 @@
+name: LeonKondiPVPMod
+main: de.moinpvp.MoinPvPPlugin
+version: 1.0.0
+api-version: '1.20'
+author: Leon Kondi
+commands:
+  join:
+    description: Tritt einem Team bei
+    usage: /join <teamRot|teamGelb|teamGrün|teamBlau>
+  teamreset:
+    description: Team verlassen
+    usage: /teamreset
+  startgame:
+    description: Startet das Spiel
+    usage: /startgame
+    permission: moinpvp.start
+permissions:
+  moinpvp.start:
+    default: op
